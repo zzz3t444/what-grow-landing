@@ -19,7 +19,7 @@ export default {
         >
           Content Management
         </p>
-        <p class="mb-8 max-w-xl p-2 lg:p-0 Roboto mx-auto md:text-sm text-neutral-500">
+        <p class="mb-8 max-w-xl p-2 lg:p-0 Roboto mx-auto md:text-lg text-neutral-500">
           Make your website editable faster than ever with BaseHub, the Headless CMS built
           for speed and collaborative workflows—all with the help of AI.
         </p>

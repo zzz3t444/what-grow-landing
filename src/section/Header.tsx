@@ -110,7 +110,7 @@ const LoginButton: React.FC = () => {
 return (
     <nav className=" bg-[#0e0e0e] fixed w-full z-10 top-0">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-around items-center h-16">
           <Brand />
           <div className="hidden md:flex ">
             <NavLinks />
