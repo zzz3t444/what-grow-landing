@@ -58,7 +58,7 @@ const Essentials = () => {
     <main>
       <div className="p-5 pr-0 pt-0 overflow-hidden bg-[#161616] border dark:border-neutral-800 rounded-2xl">
         <div className="grid">
-          <div className="flex justify-end mb-10">
+          <div className="flex justify-end mb-5">
             <img className="rounded-bl-2xl" src="https://assets.basehub.com/9dbc0da9/dzwz5bpfny24vbrhm3f0zsmp/image-bento-4.png?format=webp&quality=100" width={300} alt="" />
           </div>
           <h1 className="Manrope text-white mb-5">All the essentials, and then some</h1>
