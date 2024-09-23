@@ -59,7 +59,7 @@ const Essentials = () => {
       <div className="p-5 pr-0 pt-0 overflow-hidden bg-[#161616] border dark:border-neutral-800 rounded-2xl">
         <div className="grid">
           <div className="flex justify-end mb-10">
-            <img className="rounded-bl-2xl" src="https://assets.basehub.com/9dbc0da9/x47x8awtppea1jdzk67oxwjz/image-bento-2.png?format=webp&quality=100" width={300} alt="" />
+            <img className="rounded-bl-2xl" src="https://assets.basehub.com/9dbc0da9/dzwz5bpfny24vbrhm3f0zsmp/image-bento-4.png?format=webp&quality=100" width={300} alt="" />
           </div>
           <h1 className="Manrope text-white mb-5">All the essentials, and then some</h1>
           <p className="Roboto text-neutral-500 text-sk max-w-sm">Choose from a wide selection of blocks. Use primitive blocks—text, images, dates, etc—, or more complex ones—collections, components, and more.</p>
@@ -77,7 +77,7 @@ const ViewsLayout = () => {
           <h1 className="Manrope text-white mb-5">A type-safe SDK</h1>
           <p className="Roboto text-neutral-500 text-sk max-w-sm">Install and run our SDK generator, which introspects your repositories’ content to output automatic TypeScript types. Learn more.</p>
           <div className="flex justify-end">
-            <img className=" mt-5" src="https://assets.basehub.com/9dbc0da9/x47x8awtppea1jdzk67oxwjz/image-bento-2.png?format=webp&quality=100" width={300} alt="" />
+            <img className=" mt-5" src="https://assets.basehub.com/9dbc0da9/lm_WcLH-Sl7j-L29zPZP1/diff-view.png?format=webp&quality=100" width={300} alt="" />
           </div>
         </div>
       </div>
