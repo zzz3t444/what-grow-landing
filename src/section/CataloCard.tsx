@@ -4,7 +4,7 @@ import "../assets/css/font.css";
 const RealtimeMultiplayerPresence = () => {
   return (
     <main>
-      <div className="p-5 pr-0 pb-0 w-full overflow-hidden bg-[#161616] border dark:border-neutral-800 rounded-2xl">
+      <div className="p-5 pr-0 pb-0 w-full overflow-hidden bg-[#161616] border border-neutral-800 rounded-2xl">
         <div className="flex items-start gap-10">
           <div>
             <h1 className="Manrope text-white mb-5">Realtime, Multiplayer Presence</h1>
@@ -22,7 +22,7 @@ const RealtimeMultiplayerPresence = () => {
 const AIStructureGeneration = () => {
   return (
     <main>
-      <div className="p-5 pr-0 pb-0 overflow-hidden bg-[#161616] border dark:border-neutral-800 rounded-2xl">
+      <div className="p-5 pr-0 pb-0 overflow-hidden bg-[#161616] border border-neutral-800 rounded-2xl">
         <div className="flex items-start gap-10">
           <div>
             <h1 className="Manrope text-white mb-5">Realtime, Multiplayer Presence</h1>
@@ -40,7 +40,7 @@ const AIStructureGeneration = () => {
 const SafeSDK = () => {
   return (
     <main>
-      <div className="p-5 pr-0 overflow-hidden pb-0 bg-[#161616] border dark:border-neutral-800 rounded-2xl">
+      <div className="p-5 pr-0 overflow-hidden pb-0 bg-[#161616] border border-neutral-800 rounded-2xl">
         <div className="grid">
           <h1 className="Manrope text-white mb-5">A type-safe SDK</h1>
           <p className="Roboto text-neutral-500 text-sk max-w-sm">Install and run our SDK generator, which introspects your repositories’ content to output automatic TypeScript types. Learn more.</p>
@@ -56,7 +56,7 @@ const SafeSDK = () => {
 const Essentials = () => {
   return (
     <main>
-      <div className="p-5 pr-0 pt-0 overflow-hidden bg-[#161616] border dark:border-neutral-800 rounded-2xl">
+      <div className="p-5 pr-0 pt-0 overflow-hidden bg-[#161616] border border-neutral-800 rounded-2xl">
         <div className="grid">
           <div className="flex justify-end mb-5">
             <img className="rounded-bl-2xl" src="https://assets.basehub.com/9dbc0da9/dzwz5bpfny24vbrhm3f0zsmp/image-bento-4.png?format=webp&quality=100" width={300} alt="" />
@@ -72,7 +72,7 @@ const Essentials = () => {
 const ViewsLayout = () => {
   return (
     <main>
-      <div className="p-5 pr-0 overflow-hidden w-full pb-0 bg-[#161616] border dark:border-neutral-800 rounded-2xl">
+      <div className="p-5 pr-0 overflow-hidden w-full pb-0 bg-[#161616] border border-neutral-800 rounded-2xl">
         <div className="grid">
           <h1 className="Manrope text-white mb-5">A type-safe SDK</h1>
           <p className="Roboto text-neutral-500 text-sk max-w-sm">Install and run our SDK generator, which introspects your repositories’ content to output automatic TypeScript types. Learn more.</p>
