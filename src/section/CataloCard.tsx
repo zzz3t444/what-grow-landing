@@ -91,7 +91,7 @@ const CatalogCard = () => {
     <main className="p-3 lg:p-0">
       <div className="mt-40">
         <h1 className="Manrope text-white text-center mb-5 text-3xl tracking-tighter">A Unique Take on Content Management</h1>
-        <p className="Roboto max-w-xl mb-5 text-lg text-center mx-auto text-neutral-500">
+        <p className="Roboto max-w-xl mb-10 text-lg text-center mx-auto text-neutral-500">
           All the bells and whistles, plus some features that really set us apart. Oh, and check out our changelog to see what we’ve been up to lately.
         </p>
       </div>
