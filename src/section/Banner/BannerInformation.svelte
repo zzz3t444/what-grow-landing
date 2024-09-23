@@ -11,7 +11,7 @@
         alt=""
       />
     </div>
-    <div class="flex justify-center">
+    <div class="flex p-3 lg:p-0 justify-center">
         <ul class="grid gap-3 text-neutral-500 text-sm tracking-tight lg:text-lg ">
           <li>Model and write your content in one go, without the context switch.</li>
           <li>Drag-and-drop, duplicate, multi-select Blocks for faster workflows.</li>
