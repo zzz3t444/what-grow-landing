@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 const Brand: React.FC = () => {
   return (
     <div className="text-xl Manrope font-bold text-neutral-200 tracking-tighter">
-      <a href="/">BaseHub</a>
+      <a href="/">WhatGrow</a>
     </div>
   );
 };
@@ -20,7 +20,7 @@ const NavLinks: React.FC = () => {
   return (  
     <>
       <div className="text-sm flex gap-5 Roboto">
-      <a href="/" className="text-neutral-400 hover:text-orange-500">
+      {/* <a href="/" className="text-neutral-400 hover:text-orange-500">
         Home
       </a>
       <a href="/about" className="text-neutral-400 hover:text-orange-500">
@@ -31,7 +31,7 @@ const NavLinks: React.FC = () => {
       </a>
       <a href="/contact" className="text-neutral-400 hover:text-orange-500">
         Contact
-      </a>
+      </a> */}
       </div>
     </>
   );
@@ -102,7 +102,7 @@ const MobileMenu: React.FC = () => {
 const LoginButton: React.FC = () => {
     return (
         <div className="flex items-center Roboto gap-1 text-sm">
-            <button className="bg-neutral-900 hover:bg-orange-500 text-neutral-200 font-normal border border-neutral-800 hover:scale-95 duration-150 transition-all py-1 px-5 rounded-full">Log In</button>
+            <button className="bg-neutral-900 hover:bg-orange-500 text-neutral-200 font-normal border border-neutral-800 hover:scale-95 duration-150 transition-all py-1 px-5 rounded-full">Support Us</button>
         </div>
     )
 }

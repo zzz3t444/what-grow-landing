@@ -1,12 +1,19 @@
 <script>
-   import "../../assets/css/font.css"
+  import "../../assets/css/font.css";
 </script>
 
 <main>
-   <div>
-    <img title="Product Us" class=" w-[1200px] border dark:border-neutral-800 relative -mt-52 rounded-3xl mx-auto" src="https://basehub.com/_next/image?url=https%3A%2F%2Fbasehub.earth%2F9dbc0da9%2FtRPeDOfCuvwc9i3pZ2OPh%2Fhomepage-hero-asset.jpg&w=3840&q=100&dpl=dpl_8WtT7My4xK1Q2Zqrh8drueL4PDsy" alt="">
+  <div id="banner">
+    <img
+      title="Product Us"
+      class=" w-[1200px] border dark:border-neutral-800 relative -mt-52 brightness-75 rounded-3xl mx-auto"
+      src="https://res.cloudinary.com/ddy7p8yrj/image/upload/v1728137316/ubkafvwiiqyfesfojp9i.jpg"
+      alt=""
+    />
     <div>
-      <div class="bg-white font-normal text-sm rounded-full py-1 mt-5 Roboto px-5 text-center w-52 mx-auto">See how Basehub Works</div>
+      <a href="#works">
+        <div class="bg-white font-normal text-sm rounded-full py-1 mt-5 Roboto px-5 text-center w-52 mx-auto">See how we Works</div>
+      </a>
     </div>
-   </div>
+  </div>
 </main>

@@ -29,7 +29,7 @@ const AIStructureGeneration = () => {
             <p className="Roboto text-neutral-500 max-w-[250px]">Work with your team in real time. You’ll see their faces as they move through the Repository.</p>
           </div>
           <div>
-            <img src="https://assets.basehub.com/9dbc0da9/b98tmjtz6o02nd6z7iarkllc/tiny-png.png?format=webp&quality=100" width={300} alt="" />
+            <img src="https://assets.basehub.com/9dbc0da9/N0cW8agITOBv170T-hc2U/real-time-presence.png?format=webp&quality=100" width={300} alt="" />
           </div>
         </div>
       </div>
