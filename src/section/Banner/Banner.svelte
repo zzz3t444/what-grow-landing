@@ -11,7 +11,7 @@
     />
     <div>
       <a href="#works">
-        <div class="bg-white font-normal text-sm rounded-full py-1 mt-5 Roboto px-5 text-center w-52 mx-auto">See how we Works</div>
+        <div class="bg-white font-normal hover:scale-95 transition-all duration-150 text-sm rounded-full py-1 mt-5 Roboto px-5 text-center w-52 mx-auto">See how we Works</div>
       </a>
     </div>
   </div>

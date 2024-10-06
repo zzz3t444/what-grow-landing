@@ -1,11 +1,11 @@
 <script>
-import "../assets/css/font.css"; 
+import "../assets/css/font.css";
 
 const SubscribeText = {
   template: `
     <div class="flex flex-col space-y-4 text-center lg:text-left">
       <h1 class="text-5xl font-bold text-neutral-200 Monterrat tracking-tighter leading-none">Stay with WhatGrow</h1>
-      <p class="text-lg text-neutral-300 max-w-sm">Doloribus consectetur quasi ipsa quo neque culpa blanditiis ducimus recusandae a veritatis optio cumque, in harum ad nam!</p>
+      <p class="text-lg text-neutral-300 max-w-md">keep supporting Whatever and GrowBisnis collaboration for further development. we believe your support will involve a very big change.</p>
     </div>
   `,
 };

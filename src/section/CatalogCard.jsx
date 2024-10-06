@@ -62,7 +62,9 @@ const Essentials = () => {
             <img className="rounded-bl-2xl" src="https://assets.basehub.com/9dbc0da9/dzwz5bpfny24vbrhm3f0zsmp/image-bento-4.png?format=webp&quality=100" width={300} alt="" />
           </div>
           <h1 className="Manrope text-white mb-5">All the essentials, and then some</h1>
-          <p className="Roboto text-neutral-500 text-sk max-w-sm">Choose from a wide selection of blocks. Use primitive blocks—text, images, dates, etc—, or more complex ones—collections, components, and more.</p>
+          <p className="Roboto text-neutral-500 text-sk max-w-sm">
+            Choose from a wide selection of blocks. Use primitive blocks—text, images, dates, etc—, or more complex ones—collections, components, and more.
+          </p>
         </div>
       </div>
     </main>
@@ -92,7 +94,11 @@ const CatalogCard = () => {
       <div className="mt-40">
         <h1 className="Manrope text-white text-center mb-5 text-3xl tracking-tighter">A Unique Take on Content Management</h1>
         <p className="Roboto max-w-xl mb-10 text-lg text-center mx-auto text-neutral-500">
-          All the bells and whistles, plus some features that really set us apart. Oh, and <span className="text-white underline"><a href="#">check out our changelog</a></span> to see what we’ve been up to lately.
+          all progress that we handle will run with several agreements from the Collaboration. you can see the{" "}
+          <span>
+            <a className="underline text-white" href="#">progress of work</a>
+          </span>{" "}
+          and other management managers.
         </p>
       </div>
       <div className="flex justify-center">
@@ -105,7 +111,7 @@ const CatalogCard = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 lg:flex gap-5 justify-center">
         <SafeSDK />
         <Essentials />
-        <ViewsLayout/>
+        <ViewsLayout />
       </div>
     </main>
   );

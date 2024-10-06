@@ -15,8 +15,8 @@ const HeroButton = {
 const HeroHeader = {
   template: `
     <div>
-      <h1 class="text-2xl md:text-5xl text-neutral-400 font-normal lg:mb-1 Manrope">Welcome to Whatever</h1>
-      <p class="text-2xl md:text-5xl Manrope text-neutral-100 font-normal mb-1 lg:mb-5">and PT GrowBisnis</p>
+      <h1 class="text-2xl md:text-5xl text-neutral-400 font-normal lg:mb-1 Manrope">Welcome to Whatever Team</h1>
+      <p class="text-2xl md:text-5xl Manrope text-neutral-100 font-normal mb-1 lg:mb-5">and Sinergi GrowBisnis</p>
     </div>
   `,
 };
