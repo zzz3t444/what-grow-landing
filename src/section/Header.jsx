@@ -19,15 +19,7 @@ const Header = () => {
   };
 
   const NavLinks = () => {
-    return (
-      <div className="text-sm flex gap-5 Roboto">
-        {/* Uncomment and modify these links as needed */}
-        {/* <a href="/" className="text-neutral-400 hover:text-orange-500">Home</a>
-        <a href="/about" className="text-neutral-400 hover:text-orange-500">About</a>
-        <a href="/services" className="text-neutral-400 hover:text-orange-500">Services</a>
-        <a href="/contact" className="text-neutral-400 hover:text-orange-500">Contact</a> */}
-      </div>
-    );
+    return <div className="text-sm flex gap-5 Roboto"></div>;
   };
 
   const HamburgerMenu = ({ isOpen, toggleMenu }) => {
