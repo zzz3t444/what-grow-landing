@@ -5,7 +5,6 @@
 <main>
   <div id="banner">
     <img
-      title="Product Us"
       class=" w-[1200px] border dark:border-neutral-800 relative -mt-52 brightness-75 rounded-3xl mx-auto"
       src="https://res.cloudinary.com/ddy7p8yrj/image/upload/v1728137316/ubkafvwiiqyfesfojp9i.jpg"
       alt=""
