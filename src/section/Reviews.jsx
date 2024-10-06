@@ -1,11 +1,11 @@
 import React from "react";
-import '../assets/css/font.css'
+import "../assets/css/font.css";
 
 const testimonials = [
   {
     name: "Brotzky",
     handle: "@brotzky_",
-    image: "https://via.placeholder.com/50", 
+    image: "https://via.placeholder.com/50",
     text: `Just got access to @basehub_ai...!
       Even in alpha, you know this is going to be special.
       We currently use Sanity and previously Contentful — but now I want to use Basehub.`,
@@ -47,12 +47,7 @@ const testimonials = [
   },
 ];
 
-const TestimonialCard: React.FC<{
-  name: string;
-  handle: string;
-  image: string;
-  text: string;
-}> = ({ name, handle, image, text }) => {
+const TestimonialCard = ({ name, handle, image, text }) => {
   return (
     <div className="bg-[#161616] text-white border border-neutral-800 p-6 rounded-xl shadow-md flex flex-col">
       <div className="flex items-center mb-4">

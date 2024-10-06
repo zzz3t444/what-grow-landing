@@ -2,42 +2,35 @@
 import "../assets/css/font.css";
 import React, { useState } from "react";
 
-const Header: React.FC = () => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const Brand: React.FC = () => {
+  const Brand = () => {
     return (
       <div className="text-xl Manrope font-bold text-neutral-200 tracking-tighter">
-        <a href="/"><span className="text-lime-500">What</span>Grow</a>
+        <a href="/">
+          <span className="text-lime-500">What</span>Grow
+        </a>
       </div>
     );
   };
 
-  const NavLinks: React.FC = () => {
+  const NavLinks = () => {
     return (
-      <>
-        <div className="text-sm flex gap-5 Roboto">
-          {/* <a href="/" className="text-neutral-400 hover:text-orange-500">
-        Home
-      </a>
-      <a href="/about" className="text-neutral-400 hover:text-orange-500">
-        About
-      </a>
-      <a href="/services" className="text-neutral-400 hover:text-orange-500">
-        Services
-      </a>
-      <a href="/contact" className="text-neutral-400 hover:text-orange-500">
-        Contact
-      </a> */}
-        </div>
-      </>
+      <div className="text-sm flex gap-5 Roboto">
+        {/* Uncomment and modify these links as needed */}
+        {/* <a href="/" className="text-neutral-400 hover:text-orange-500">Home</a>
+        <a href="/about" className="text-neutral-400 hover:text-orange-500">About</a>
+        <a href="/services" className="text-neutral-400 hover:text-orange-500">Services</a>
+        <a href="/contact" className="text-neutral-400 hover:text-orange-500">Contact</a> */}
+      </div>
     );
   };
 
-  const HamburgerMenu: React.FC<{ isOpen: boolean; toggleMenu: () => void }> = ({ isOpen, toggleMenu }) => {
+  const HamburgerMenu = ({ isOpen, toggleMenu }) => {
     return (
       <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-orange-500 focus:outline-none">
         <svg className={`h-6 w-6 ${isOpen ? "hidden" : "block"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +43,7 @@ const Header: React.FC = () => {
     );
   };
 
-  const MobileMenu: React.FC = () => {
+  const MobileMenu = () => {
     return (
       <div className="md:hidden bg-white border-t text-sm border-gray-200">
         <div className="space-y-1 py-2">
@@ -71,7 +64,7 @@ const Header: React.FC = () => {
     );
   };
 
-  const LoginButton: React.FC = () => {
+  const LoginButton = () => {
     return (
       <div className="flex items-center Roboto gap-1 text-sm">
         <button className="bg-neutral-900 hover:bg-orange-500 text-neutral-200 font-normal border border-neutral-800 hover:scale-95 duration-150 transition-all py-1 px-5 rounded-full">
@@ -82,11 +75,11 @@ const Header: React.FC = () => {
   };
 
   return (
-    <nav className=" bg-[#0e0e0e] fixed rounded-bl-3xl rounded-br-3xl w-full z-10 top-0">
+    <nav className="bg-[#0e0e0e] fixed rounded-bl-3xl rounded-br-3xl w-full z-10 top-0">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between lg:justify-around items-center h-12">
           <Brand />
-          <div className="hidden md:flex ">
+          <div className="hidden md:flex">
             <NavLinks />
           </div>
           <div className="md:hidden flex items-center">

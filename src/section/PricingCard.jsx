@@ -1,22 +1,13 @@
 import React from "react";
 import "../assets/css/font.css";
 
-const CheckIcon: React.FC = () => (
+const CheckIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-lime-500">
     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
   </svg>
 );
 
-interface PlanCardProps {
-  title: string;
-  price: string;
-  priceDescription?: string;
-  description: string;
-  features: string[];
-  isPro: boolean;
-}
-
-const PlanCard: React.FC<PlanCardProps> = ({ title, price, priceDescription, description, features, isPro }) => (
+const PlanCard = ({ title, price, priceDescription, description, features, isPro }) => (
   <div className={`flex mb-8 sm:px-4 md:w-1/2 lg:w-1/4 lg:mb-0`}>
     <div className={`flex flex-grow flex-col p-6 space-y-6 rounded-3xl shadow-lg shadow-lime-400 sm:p-8 ${isPro ? "dark:bg-lime-500 dark:text-gray-50" : "dark:bg-gray-50"}`}>
       <div className="space-y-2">
@@ -27,7 +18,7 @@ const PlanCard: React.FC<PlanCardProps> = ({ title, price, priceDescription, des
       </div>
       <p className="leading-relaxed dark:text-gray-600">{description}</p>
       <ul className={`flex-1 space-y-2 ${isPro ? "" : "dark:text-gray-600"}`}>
-        {features.map((feature: string, index: number) => (
+        {features.map((feature, index) => (
           <li className="flex items-center space-x-2" key={index}>
             <CheckIcon />
             <span>{feature}</span>
@@ -44,17 +35,8 @@ const PlanCard: React.FC<PlanCardProps> = ({ title, price, priceDescription, des
   </div>
 );
 
-interface Plan {
-  title: string;
-  price: string;
-  priceDescription?: string;
-  description: string;
-  features: string[];
-  isPro: boolean;
-}
-
-const PricingSection: React.FC = () => {
-  const plans: Plan[] = [
+const PricingSection = () => {
+  const plans = [
     {
       title: "Beginner",
       price: "Free",
@@ -88,8 +70,6 @@ const PricingSection: React.FC = () => {
           <h2 className="text-4xl font-semibold lg:text-5xl Montterat tracking-tighter text-white">Choose your best plan</h2>
         </div>
         <div className="flex flex-wrap items-stretch justify-center -mx-4">
-          {" "}
-          {/* Added justify-center here */}
           {plans.map((plan, index) => (
             <PlanCard key={index} title={plan.title} price={plan.price} priceDescription={plan.priceDescription} description={plan.description} features={plan.features} isPro={plan.isPro} />
           ))}
