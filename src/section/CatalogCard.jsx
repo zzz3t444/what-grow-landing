@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/font.css";
 
+
 const RealtimeMultiplayerPresence = () => {
   return (
     <main>
@@ -99,7 +100,7 @@ const CatalogCard = () => {
             <a className="underline text-white" href="#">
               progress of work
             </a>
-          </span>{" "}
+          </span>
           and other management managers.
         </p>
       </div>
