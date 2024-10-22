@@ -63,7 +63,7 @@ const PricingSection = () => {
   ];
 
   return (
-    <section className="py-20 flex justify-center items-center">
+    <section className="py-20 mt-32 mb-32 flex justify-center items-center">
       <div className="container px-4 mx-auto">
         <div className="max-w-2xl mx-auto mb-16 text-center">
           <span className="font-bold tracking-wider uppercase Monterrat dark:text-lime-500">Pricing</span>

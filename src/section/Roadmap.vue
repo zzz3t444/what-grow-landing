@@ -19,7 +19,7 @@ const RoadmapText = {
 const RoadmapImage = {
   template: `
     <div>
-      <img src="https://shorturl.at/GGoex" width="800" alt="" />
+      <img src="https://res.cloudinary.com/ddy7p8yrj/image/upload/v1729597363/ll507nbyd0oonimqbgcc.jpg" class="rounded-2xl" width="600" alt="" />
     </div>
   `,
 };
